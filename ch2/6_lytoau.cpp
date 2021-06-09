@@ -1,13 +1,15 @@
+//---------------C++ Primer 6th ed.----------------
+//--------------Chapter 2, exercize 6--------------
 #include <iostream>
 
 double lytoau(double);
 
 int main(){
     std::cout << "Enter the number of light years: ";
-    double in;
-    std::cin >> in;
-    double out = lytoau(in);
-    std::cout << in << " ly = " << out << " au." << std::endl;
+    double dInput;
+    std::cin >> dInput;
+    double dOutput = lytoau(dInput);
+    std::cout << dInput << " ly = " << dOutput << " au." << std::endl;
     return 0;
 }
 double lytoau(double ly){

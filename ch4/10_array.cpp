@@ -1,3 +1,5 @@
+//---------------C++ Primer 6th ed.----------------
+//--------------Chapter 4, exercize 10-------------
 #include <iostream>
 #include <array>
 

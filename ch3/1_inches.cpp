@@ -1,12 +1,14 @@
+//---------------C++ Primer 6th ed.----------------
+//--------------Chapter 3, exercize 1--------------
 #include <iostream>
 
 int main(){
-    const int Convf = 12; 
+    const int nConstConvF = 12; 
     std::cout << "Enter your height in inches:____\b\b\b\b";
-    int input;
-    std::cin >> input;
-    int ft = input/Convf;
-    int in = input%Convf;
-    std::cout << "\nYour height is " << ft << " ft " << in << " in.\n";
+    int nInput;
+    std::cin >> nInput;
+    int nFt = nInput/nConstConvF;
+    int nIn = nInput%nConstConvF;
+    std::cout << "\nYour height is " << nFt << " ft " << nIn << " in.\n";
     return 0;
 }

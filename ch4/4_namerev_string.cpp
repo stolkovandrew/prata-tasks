@@ -1,15 +1,17 @@
+//---------------C++ Primer 6th ed.----------------
+//--------------Chapter 4, exercize 4--------------
 #include <iostream>
 #include <string>
 
 int main(){
     std::cout << "Enter your first name: ";
-    std::string firstName;
-    std::getline(std::cin, firstName);
+    std::string strFirstName;
+    std::getline(std::cin, strFirstName);
     std::cout << "Enter your last name: ";
-    std::string lastName;
-    std::getline(std::cin, lastName);
-    std::string wholeName;
-    wholeName = lastName + ", " + firstName;
-    std::cout << "Here's the information in a single string: " << wholeName << std::endl;
+    std::string strLastName;
+    std::getline(std::cin, strLastName);
+    std::string strWholeName;
+    strWholeName = strLastName + ", " + strFirstName;
+    std::cout << "Here's the information in a single string: " << strWholeName << std::endl;
     return 0;
 }

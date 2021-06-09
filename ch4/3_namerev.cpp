@@ -1,18 +1,20 @@
+//---------------C++ Primer 6th ed.----------------
+//--------------Chapter 4, exercize 3--------------
 #include <iostream>
 #include <cstring>
 
 int main(){
-    const int NameLength = 20;
+    const int nConstNameLength = 20;
     std::cout << "Enter your first name: ";
-    char firstName[NameLength];
-    std::cin.getline(firstName, NameLength);
+    char charrFirstName[nConstNameLength];
+    std::cin.getline(charrFirstName, nConstNameLength);
     std::cout << "Enter your last name: ";
-    char lastName[NameLength];
-    std::cin.getline(lastName, NameLength);
-    char wholeName[NameLength*2];
-    std::strcat(wholeName, lastName);
-    std::strcat(wholeName, ", ");
-    std::strcat(wholeName, firstName);
-    std::cout << "Here's the information in a single string: " << wholeName << std::endl;
+    char charrLastName[nConstNameLength];
+    std::cin.getline(charrLastName, nConstNameLength);
+    char charrWholeName[nConstNameLength*2];
+    std::strcat(charrWholeName, charrLastName);
+    std::strcat(charrWholeName, ", ");
+    std::strcat(charrWholeName, charrFirstName);
+    std::cout << "Here's the information in a single string: " << charrWholeName << std::endl;
     return 0;
 }

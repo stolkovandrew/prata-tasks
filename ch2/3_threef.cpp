@@ -1,3 +1,5 @@
+//---------------C++ Primer 6th ed.----------------
+//--------------Chapter 2, exercize 3--------------
 #include <iostream>
 
 void first(void);

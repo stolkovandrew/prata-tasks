@@ -1,21 +1,23 @@
+//---------------C++ Primer 6th ed.----------------
+//--------------Chapter 4, exercize 7--------------
 #include <iostream>
 
 struct pizza
 {
-    char companyName[20];
-    int diameter;
-    float weight;
+    char charrCompanyName[20];
+    int nDiameter;
+    float fWeight;
 };
 int main(){
     pizza pizzaInfo;
     std::cout << "Enter the manufacturers name: ";
-    std::cin.getline(pizzaInfo.companyName, 20);
+    std::cin.getline(pizzaInfo.charrCompanyName, 20);
     std::cout << "Enter the diameter: ";
-    std::cin >> pizzaInfo.diameter;
+    std::cin >> pizzaInfo.nDiameter;
     std::cout << "Enter the weight: ";
-    std::cin >> pizzaInfo.weight;
-    std::cout << "Pizza is made by " << pizzaInfo.companyName
-    << ", has a diameter of " << pizzaInfo.diameter
-    << "cm and weighs " << pizzaInfo.weight << "kg" << std::endl;
+    std::cin >> pizzaInfo.fWeight;
+    std::cout << "Pizza is made by " << pizzaInfo.charrCompanyName
+    << ", has a diameter of " << pizzaInfo.nDiameter
+    << "cm and weighs " << pizzaInfo.fWeight << "kg" << std::endl;
     return 0;
 }

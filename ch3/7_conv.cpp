@@ -1,13 +1,15 @@
+//---------------C++ Primer 6th ed.----------------
+//--------------Chapter 3, exercize 7--------------
 #include <iostream>
 
 int main(){
-    const double ConvFacKmMl = 0.6214;
-    const double ConvFacGalL = 3.875;
-    const int PerfAdjust = 100;
+    const double dConstConvFacKmMl = 0.6214;
+    const double dConstConvFacGalL = 3.875;
+    const int nConstPerfAdjust = 100;
     std::cout << "Enter the performance of your car in liters per 100 kilometres: ";
-    double perfMetric;
-    std::cin >> perfMetric;
-    double perfImperial = (1/(perfMetric/PerfAdjust))*ConvFacGalL*ConvFacKmMl;
-    std::cout << "Performance of your car is " << perfImperial << " miles per gallon\n";
+    double dPerfMetric;
+    std::cin >> dPerfMetric;
+    double dPerfImperial = (1/(dPerfMetric/nConstPerfAdjust))*dConstConvFacGalL*dConstConvFacKmMl;
+    std::cout << "Performance of your car is " << dPerfImperial << " miles per gallon\n";
     return 0;
 }

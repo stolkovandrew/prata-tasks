@@ -1,22 +1,24 @@
+//---------------C++ Primer 6th ed.----------------
+//--------------Chapter 4, exercize 1--------------
 #include <iostream>
 
 int main(){
-    const int nameLength = 20;
+    const int nConstNameLength = 20;
     std::cout << "What's your first name? ";
-    char firstName[nameLength];
-    std::cin.getline(firstName, nameLength);
+    char charrFirstName[nConstNameLength];
+    std::cin.getline(charrFirstName, nConstNameLength);
     std::cout << "What's your last name? ";
-    char lastName[nameLength];
-    std::cin.getline(lastName, nameLength);
+    char charrLastName[nConstNameLength];
+    std::cin.getline(charrLastName, nConstNameLength);
     std::cout << "What letter grade do you deserve? ";
-    char inputLetter;
-    std::cin >> inputLetter;
-    char grade = ++inputLetter;
-    std::cout << "What's your age? ";
-    int age;
-    std::cin >> age;
-    std::cout << "Name: " << lastName << ", " << firstName << std::endl;
-    std::cout << "Grade: " << grade << std::endl;
-    std::cout << "Age: " << age << std::endl;
+    char chInputLetter;
+    std::cin >> chInputLetter;
+    char chGrade = ++chInputLetter;
+    std::cout << "What's your nAge? ";
+    int nAge;
+    std::cin >> nAge;
+    std::cout << "Name: " << charrLastName << ", " << charrFirstName << std::endl;
+    std::cout << "Grade: " << chGrade << std::endl;
+    std::cout << "nAge: " << nAge << std::endl;
     return 0;
 }
