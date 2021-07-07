@@ -1,5 +1,5 @@
 //---------------C++ Primer 6th ed.----------------
-//--------------Chapter 4, exercize 5--------------
+//--------------Chapter 4, exercise 5--------------
 #include <iostream>
 
 struct CandyBar

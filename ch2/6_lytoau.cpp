@@ -1,5 +1,5 @@
 //---------------C++ Primer 6th ed.----------------
-//--------------Chapter 2, exercize 6--------------
+//--------------Chapter 2, exercise 6--------------
 #include <iostream>
 
 double lytoau(double);

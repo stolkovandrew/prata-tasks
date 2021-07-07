@@ -1,5 +1,5 @@
 //---------------C++ Primer 6th ed.----------------
-//--------------Chapter 2, exercize 7--------------
+//--------------Chapter 2, exercise 7--------------
 #include <iostream>
 
 void disp(int,int);

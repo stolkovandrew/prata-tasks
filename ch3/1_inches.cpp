@@ -1,5 +1,5 @@
 //---------------C++ Primer 6th ed.----------------
-//--------------Chapter 3, exercize 1--------------
+//--------------Chapter 3, exercise 1--------------
 #include <iostream>
 
 int main(){

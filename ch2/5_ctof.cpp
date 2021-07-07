@@ -1,5 +1,5 @@
 //---------------C++ Primer 6th ed.----------------
-//--------------Chapter 2, exercize 5--------------
+//--------------Chapter 2, exercise 5--------------
 #include <iostream>
 
 double ctof(double);

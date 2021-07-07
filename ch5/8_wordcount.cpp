@@ -1,5 +1,5 @@
 //---------------C++ Primer 6th ed.----------------
-//--------------Chapter 5, exercize 8--------------
+//--------------Chapter 5, exercise 8--------------
 #include <iostream>
 #include <cstring>
 

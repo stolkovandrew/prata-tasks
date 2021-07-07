@@ -1,5 +1,5 @@
 //---------------C++ Primer 6th ed.----------------
-//--------------Chapter 4, exercize 7--------------
+//--------------Chapter 4, exercise 7--------------
 #include <iostream>
 
 struct pizza
