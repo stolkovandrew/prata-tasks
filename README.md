@@ -10,4 +10,5 @@ Note: exercises start with Chapter 2.
 |4. Compound Types| [/ch4](https://github.com/stolkovandrew/prata-tasks/tree/master/ch4)|
 |5. Loops and Relational Expressions| [/ch5](https://github.com/stolkovandrew/prata-tasks/tree/master/ch5)|
 |6. Branching Statements and Logical Operators| [/ch6](https://github.com/stolkovandrew/prata-tasks/tree/master/ch6)|
-|7. Functions: C++’s Programming Modules| [/ch7](https://github.com/stolkovandrew/prata-tasks/tree/master/ch7)
+|7. Functions: C++’s Programming Modules| [/ch7](https://github.com/stolkovandrew/prata-tasks/tree/master/ch7)|
+|8. Adventures in Functions| [/ch8](https://github.com/stolkovandrew/prata-tasks/tree/master/ch8)|
