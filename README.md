@@ -12,3 +12,4 @@ Note: exercises start with Chapter 2.
 |6. Branching Statements and Logical Operators| [/ch6](https://github.com/stolkovandrew/prata-tasks/tree/master/ch6)|
 |7. Functions: C++’s Programming Modules| [/ch7](https://github.com/stolkovandrew/prata-tasks/tree/master/ch7)|
 |8. Adventures in Functions| [/ch8](https://github.com/stolkovandrew/prata-tasks/tree/master/ch8)|
+|9. Memory Models and Namespaces| [/ch9](https://github.com/stolkovandrew/prata-tasks/tree/master/ch9)
