@@ -14,3 +14,4 @@ Note: exercises start with Chapter 2.
 |8. Adventures in Functions| [/ch8](https://github.com/stolkovandrew/prata-tasks/tree/master/ch8)|
 |9. Memory Models and Namespaces| [/ch9](https://github.com/stolkovandrew/prata-tasks/tree/master/ch9)|
 |10. Objects and Classes| [/ch10](https://github.com/stolkovandrew/prata-tasks/tree/master/ch10)|
+|11. Working with Classes| [/ch11](https://github.com/stolkovandrew/prata-tasks/tree/master/ch11)|
